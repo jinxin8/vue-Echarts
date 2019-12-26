@@ -1,15 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-
+import routes from './routes';
 Vue.use(Router)
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
-})
+// 导出路由 在 main.js 里使用
+const router = new VueRouter({
+  routes
+});
+
+export default router;
