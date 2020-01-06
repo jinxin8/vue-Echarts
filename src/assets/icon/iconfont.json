@@ -1,0 +1,30 @@
+{
+  "id": "1596269",
+  "name": "vue-Echarts",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1277576",
+      "name": "bar-chart",
+      "font_class": "bar-chart",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "4503682",
+      "name": "linechart",
+      "font_class": "linechart",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "7141611",
+      "name": "pie-chart",
+      "font_class": "pie-chart",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}
