@@ -13,6 +13,13 @@
       "unicode_decimal": 58972
     },
     {
+      "icon_id": "2541355",
+      "name": "warring",
+      "font_class": "warring",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
       "icon_id": "4503682",
       "name": "linechart",
       "font_class": "linechart",

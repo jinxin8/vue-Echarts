@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1578302547749'); /* IE9 */
+  src: url('iconfont.eot?t=1578302547749#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACFAAAAOKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDYIMZATYCJAMUCwwABCAFhG0HVRsyBxEVnGnIfhw456dg/WpFynnNRRU1Sf85eOD1qveRbDZZEQdOdTKyB7AkK6gS2U4DBBCIvf+5IV4J5UKZxlWsa/9y/0/0dhNep2VSIkRC5H8OlzZtg83/Xp7jHJOKegFGEyjL9qb2HdkdyIn6KQyvdRmXIQCbBPIQzTwtOmChMWcJQIwYOrgvVkaNbsgVWAjMio0asQoDSy6WV4GVwe+LL5QICySGwlzYZlDzATR6n/X+qnK9rh4eAs50RoDfBgrIAzSIcZXmEagonIfCVodrGgE2FhI5Vb8e7+e/v+r1kvAPJLWtf3igEUgUCBMz2w+ARjSi4X2Ww04kPaBEQDIfSiQkVxFBAc+1EWwgEFgIjjNxcRgNFDVKU8Po5+vnXRMcHBA2NcjH0cHjHGn3drTdPThx+t23He696/jgQ+f776e4u5fsrdu3dI/gVEIJA5i+1HHa1wlG0IX2yCCfur1LdmNuPp0evHSfcvuo9UsjO3ccvHHLzu1hAzoNWLd5vP/SfZH373datxvp7unrN0bi3rS7dzveu2cf9qDz1r313NJ2CU2eBm1v4bE9h0I9Ye4BKzwrPYc7NevcjCTlPtJJSZqQHyUl8Zk0Z1tsQHCcJRoXqgPOeYMpvukqZXaX0vJUYo3fyrkZGf7E4J9hBbvc2371ffTix//XbS1cPa2i4biputuqTWbm1EiGnY8LLAtQC48dW6heNg2UjmuW4ekeNCioR8iGoD3hd/+Jfb773r51jxL/7obvYShdAPBeVRfl10BxTlnCRojeU/tV/r/9G9Jrl97qHVjvn+VoAB5Xx7dHmdcdyoUfJKEz509yOtZojWdqDK1UOmzFalDwDsRSbbKB/2cP4fk00vDO2SCwCE9A4kM8KCzSkBqbBwYOZWBi4TUEW67LdkcoMifmC+R4ExCCfEAKcBaUIF+kxv7AEOEPpqDmYOvU/kBHRsnuQCgYNcgXJKoqja3jXZh7RdvlgtK8gPJEahMfBK6fj12wRJpiSdvbkNmAoaqAM7kO87yCmqoUFbsxcx15nqn6JldVxWSnKYIEhjQgvYCEUikZrzHbFX7+ClmdnEANVVXWJ0RaSe8g4PI7IC/islPVrTzS6lkhxgxgkEoBnIkR5Va4AurqcSmkMFc8IFiLeLSe6Sp2l5cW77gLsJmHGEmhhBaGMPG9IEfFLonXAxMlpd3mYix4tnWC1arJBAAA') format('woff2'),
+  url('iconfont.woff?t=1578302547749') format('woff'),
+  url('iconfont.ttf?t=1578302547749') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1578302547749#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bar-chart:before {
+  content: "\e65c";
+}
+
+.icon-warring:before {
+  content: "\e685";
+}
+
+.icon-linechart:before {
+  content: "\e6cc";
+}
+
+.icon-pie-chart:before {
+  content: "\e628";
+}
+

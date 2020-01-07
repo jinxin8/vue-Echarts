@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="logicon" @click="gethome">
-      <img src="@/assets/logo.jpg" alt="">
-    </div>
     <el-menu
       class="el-menu-vertical-demo"
       :default-active="this.$route.path"
@@ -11,6 +8,9 @@
       router
       :collapse="true"
       style="height:100vh;">
+      <div class="logicon" @click="gethome">
+        <img src="@/assets/icons/logo.jpg" alt="">
+      </div>
       <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
         <i :class="['iconfont',item.icon]"></i>
         <span slot="title">{{item.navItem}}</span>
@@ -55,8 +55,6 @@ export default {
   width: 34px;
   height: 34px;
   padding: 15px;
-  border-right: 1px solid #e6e6e6;
-  background: #fff;
   img {
     width: 100%;
     height: 100%;

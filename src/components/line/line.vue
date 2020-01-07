@@ -1,6 +1,6 @@
 <template>
   <div class="line-cont">
-    <baseline class="line"></baseline>
+      <baseline class="line"></baseline>
   </div>
 </template>
 <script>
@@ -20,7 +20,7 @@ export default {
 .line-cont {
   .line {
     width: 30%;
-    height: 300px;
+    height: 321px;
   }
 }
 </style>
