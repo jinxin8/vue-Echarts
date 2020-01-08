@@ -13,7 +13,7 @@
           1. title 设置图表标题<br/>
           2. tooltip 设置提示框组件<br/>
           3. legend 设置图例组件<br/>
-          4. grid 设置 grid 组件，可设置 grid 组件离容器的距离，grid 中 containLabel 设置 grid 区域是否包含坐标轴的刻度标签<br/>
+          4. grid 可设置 grid 组件离容器的距离等，grid 中 containLabel 设置 grid 区域是否包含坐标轴的刻度标签<br/>
           5. xAxis 设置 x 轴<br/>&nbsp&nbsp
           5.1. type 包含：<br/>
           (1) 'value' 数值轴，适用于连续数据<br/>
@@ -24,9 +24,8 @@
           6. yAxis 设置 y 轴，type 类型同 x 轴相同<br/>
           7. color 设置图标颜色<br/>
           8. series 系列列表，每个系列通过 type 决定图表类型<br/>&nbsp&nbsp
-          8.1. 数据堆叠图通过设置 stack 相同实现<br/>&nbsp&nbsp
-          8.2. smooth 是否平滑曲线显示<br/>&nbsp&nbsp
-          8.3. areaStyle 区域填充样式<br/>
+          8.1. smooth 是否平滑曲线显示<br/>&nbsp&nbsp
+          8.2. areaStyle 区域填充样式<br/>
        </div>
       </el-popover>
     </div>
@@ -69,7 +68,7 @@ export default {
         grid: {
             left: '0%',
             right: '2%',
-            top: '15%',
+            top: '13%',
             bottom: '0%',
             containLabel: true
         },
